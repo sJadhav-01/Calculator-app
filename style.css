@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    height: 80vmin;
+    width: 60vmin;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+}
+
+.key-container {
+    background-color: black;
+    height: 70%;
+    width: 75%;
+    /* gap: 10rem; */
+    padding: 1rem;
+    border-radius: 1rem;   
+}
+
+.display {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 30%;
+    width: 85%;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: 3rem;
+}
+
+button {
+    height: 9.5vmin;
+    width: 9.5vmin;
+    margin: 0.2rem;
+    margin-top: 0.1rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+  }
+
+.func-key {
+    background-color: yellow;
+}
